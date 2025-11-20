@@ -14,7 +14,7 @@
   </div>
 
   <img src="https://komarev.com/ghpvc/?username=sarthakpande108&style=flat-square&color=blue" alt="profile views"/>
-  <h1>👋 Hey, I'm Sarthak — AI Engineer in Making</h1>
+  <h1>👋 Hey, I'm Sarthak — AI/ML Engineer </h1>
 </div>
 
 ---
