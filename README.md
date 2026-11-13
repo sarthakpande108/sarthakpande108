@@ -1,85 +1,104 @@
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+# Sarthak Pande
 
-  <div id="badges">
-    <a href="https://www.linkedin.com/in/sarthak-pande-1435a1229">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-    </a>
-    <a href="https://instagram.com/sarthakpande1008">
-      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-    </a>
-    <a href="https://twitter.com/Sarthakpande108">
-      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
-    </a>
-  </div>
+### AI/ML Engineer | Production GenAI · Agentic Systems · Python Backend
 
-  <img src="https://komarev.com/ghpvc/?username=sarthakpande108&style=flat-square&color=blue" alt="profile views"/>
-  <h1>👋 Hey, I'm Sarthak — AI/ML Engineer </h1>
-</div>
+I build production-oriented AI systems that connect LLMs, data, and software workflows — from agent orchestration and retrieval to backend APIs and user-facing applications.
+
+Currently working on enterprise AI solutions at **Cognizant**. My work spans multi-agent conversational systems, document intelligence, RFP response automation, and applied GenAI.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/sarthak-pande-1435a1229)
+[![GitHub](https://img.shields.io/badge/GitHub-sarthakpande108-181717?style=flat&logo=github)](https://github.com/sarthakpande108)
+[![PyPI](https://img.shields.io/badge/PyPI-embedding--drift--lib-3775A9?style=flat&logo=pypi&logoColor=white)](https://pypi.org/project/embedding-drift-lib/)
 
 ---
 
-### 🤖 Who Am I?
+## What I work on
 
-I’m an aspiring **AI / ML & GenAI Engineer** passionate about building  
-**Agentic AI Systems**, **Financial Intelligence Tools**, and **Autonomous AI Apps**.
+- **Agentic AI systems** — multi-agent orchestration, tool calling, MCP, A2A, and workflow automation.
+- **LLM applications** — retrieval-augmented generation, document intelligence, semantic search, and grounded question answering.
+- **AI backend engineering** — Python, FastAPI, API design, asynchronous workflows, and service integration.
+- **Applied ML and data** — data analysis, model evaluation, embeddings, and intelligent automation.
+- **Product integration** — connecting AI capabilities to usable applications and business workflows.
 
-📍 From India | 🎯 Mission: Build **real-world AI** that *makes decisions* — not just predictions.
+## Selected work
 
----
+### Enterprise AI — Cognizant
+- Built a multi-agent conversational HR assistant for a large UK hotel group, integrating domain agents, A2A orchestration, MCP-based enterprise search, and Vertex AI reranking on GCP.
+- Developed an AI-powered **RFP response and proposal-generation workflow** for a large IT services company. The system combines document retrieval, LLM-based orchestration, slide planning, and PowerPoint generation, reducing proposal preparation time by **up to 80%**.
 
-## 🛠️ The GenAI & Full-Stack AI Engineering Stack
+### Healthcare AI — Merck Hackathon
+- Built an AI research agent to analyse public healthcare and pharmaceutical information from sources including PubMed, WHO, and Kaggle datasets.
+- The goal was to help pharmaceutical companies surface emerging market opportunities and reduce the manual effort involved in market research and analysis.
 
-| **Category** | **Stack & Tools** |
-| :--- | :--- |
-| 🧠 **GenAI & LLMs** | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![OpenAI](https://img.shields.io/badge/OpenAI-000000?style=flat-square&logo=OpenAI&logoColor=white) ![Vertex AI](https://img.shields.io/badge/Vertex%20AI-4285F4?style=flat-square&logo=google-cloud&logoColor=white) ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-black?style=flat-square) ![Ollama](https://img.shields.io/badge/Ollama-white?style=flat-square&logo=ollama&logoColor=black) |
-| 🤖 **Machine Learning & Data** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/Numpy-013243?style=flat-square&logo=numpy&logoColor=white) |
-| 🧪 **Experimentation & AI Apps** | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) ![Gradio](https://img.shields.io/badge/Gradio-FF6600?style=flat-square&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) |
-| 💻 **Programming Languages** | ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white) |
-| 🏗️ **Backend & APIs** | ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white) ![ExpressJS](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white) ![REST](https://img.shields.io/badge/REST-009688?style=flat-square&logo=api&logoColor=white) |
-| 🗄️ **Databases** | ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white) ![Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) |
-| 🎨 **Front-End & UI** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) |
-| ☁️ **Cloud & Deployment** | ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![Render](https://img.shields.io/badge/Render-000000?style=flat-square&logo=render&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-0db7ed?style=flat-square&logo=docker&logoColor=white) |
-| 🧩 **MLOps & Vector Infra** | ![Pinecone](https://img.shields.io/badge/Pinecone-02837c?style=flat-square&logo=pinecone&logoColor=white) ![ChromaDB](https://img.shields.io/badge/ChromaDB-0C8CE9?style=flat-square&logo=python&logoColor=white) |
-| 📊 **Data Visualization & Analysis** | ![Matplotlib](https://img.shields.io/badge/Matplotlib-006C9A?style=flat-square&logo=python&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white) |
+### Open source — embedding-drift-lib
+- Published a Python package on PyPI to help identify distribution and coverage shifts in embeddings used by RAG systems.
+- Includes drift analysis, monitoring utilities, and diagnostic signals without requiring an external service or API key.
 
----
+[View the package on PyPI](https://pypi.org/project/embedding-drift-lib/) · [Source code](https://github.com/sarthakpande108/embedding-drift-lib)
 
-### 🚀 Featured Projects
+## Other projects
 
-| Project | What it Does | Tech |
-|--------|---------------|------|
-| **AI Finance Agent** | Budgeting, investment insights + paper trading | LLMs, LangChain, Live Market APIs |
-| **GenAI KT Assistant** | Teaches employees about projects like a real mentor | RAG, Vector DB |
-| **Stock Predictor Suite** | Time-series forecasting + model comparison dashboard | ML, Python |
-| **Autonomous Task Agent** *(WIP)* | Plans, acts, and learns from environment | Agentic LLM Design |
-
-📌 More coming soon — working on **execution-capable AI for Finance**.
+| Project | Overview |
+| --- | --- |
+| [GenAI Trading Engine](https://github.com/sarthakpande108/genai-trading-engine) | AI-assisted trading and market-analysis project. |
+| [KTMantra](https://github.com/sarthakpande108/ktmantra) | Document-grounded knowledge-transfer assistant with guided learning and Q&A. |
+| [Market Wings](https://github.com/sarthakpande108/Market-Wings) | AI-powered stock-chart analysis application. [Live demo](https://market-wings.vercel.app/) |
+| [AI PowerPoint Generator](https://github.com/sarthakpande108/AI_PPT_generator) | Frontend for an AI-assisted presentation-generation workflow. |
+| [LinkedIn Automation](https://github.com/sarthakpande108/Linkedin-Automation) | Automation workflow for LinkedIn content tasks. |
 
 ---
 
-### 📈 GitHub Insights
+## Technical toolkit
 
-<p align="center">
-  <img src="http://github-readme-streak-stats.herokuapp.com?user=sarthakpande108&theme=dark&background=000000"/>
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api?username=sarthakpande108&show_icons=true&theme=radical"/>
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sarthakpande108&layout=compact&theme=vision-friendly-dark"/>
-</p>
+**Languages**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+
+**AI / ML / LLM Engineering**  
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+
+**Agentic systems, retrieval & APIs**  
+![MCP](https://img.shields.io/badge/MCP-Agents-5B5BD6?style=flat)
+![A2A](https://img.shields.io/badge/A2A-Orchestration-5B5BD6?style=flat)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-02569B?style=flat)
+![Chroma](https://img.shields.io/badge/ChromaDB-5B46A5?style=flat)
+
+**Cloud, data & delivery**  
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+
+**Application development**  
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 
 ---
 
-### 🌍 Let’s Build the Future of AI 🤝
+## Background
 
-💬 Open for:  
-🌟 AI Engineering • GenAI Apps • Agent Systems • FinTech AI  
-
-📩 DM Anytime — I’d love to collaborate!  
-🔗 Portfolio (New version deploying soon!)
+- **AI/ML Engineer — Cognizant Technology Solutions**
+- **Generative AI Intern — AlgoArtha**
+- **Data Analyst Intern — Productry**
+- **B.E. — Artificial Intelligence & Data Science**
 
 ---
 
-<div align="center">
-✨ *“AI won’t replace humans — but humans who use AI will.”* ✨
-</div>
+## Let's connect
+
+I'm interested in building reliable AI products, agentic workflows, and intelligent systems that solve real operational problems.
+
+- LinkedIn: [linkedin.com/in/sarthak-pande-1435a1229](https://www.linkedin.com/in/sarthak-pande-1435a1229)
+- GitHub: [github.com/sarthakpande108](https://github.com/sarthakpande108)
