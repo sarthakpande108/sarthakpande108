@@ -1,104 +1,83 @@
 # Sarthak Pande
 
-### AI/ML Engineer | Production GenAI · Agentic Systems · Python Backend
+**GenAI Engineer | Multi-Agent Systems · RAG Evaluation · Python Backend Engineering**
 
-I build production-oriented AI systems that connect LLMs, data, and software workflows — from agent orchestration and retrieval to backend APIs and user-facing applications.
+I engineer enterprise GenAI workflows across multi-agent orchestration, retrieval systems, document intelligence, and automated presentation generation. My current work at Cognizant focuses on domain-specific conversational AI and RFP/proposal intelligence, with an emphasis on retrieval quality, evaluation, and workflow automation.
 
-Currently working on enterprise AI solutions at **Cognizant**. My work spans multi-agent conversational systems, document intelligence, RFP response automation, and applied GenAI.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/sarthak-pande-1435a1229)
-[![GitHub](https://img.shields.io/badge/GitHub-sarthakpande108-181717?style=flat&logo=github)](https://github.com/sarthakpande108)
-[![PyPI](https://img.shields.io/badge/PyPI-embedding--drift--lib-3775A9?style=flat&logo=pypi&logoColor=white)](https://pypi.org/project/embedding-drift-lib/)
+[LinkedIn](https://www.linkedin.com/in/sarthak-pande-1435a1229) · [GitHub](https://github.com/sarthakpande108) · [Portfolio](https://github.com/sarthakpande108)
 
 ---
 
-## What I work on
+## Engineering focus
 
-- **Agentic AI systems** — multi-agent orchestration, tool calling, MCP, A2A, and workflow automation.
-- **LLM applications** — retrieval-augmented generation, document intelligence, semantic search, and grounded question answering.
-- **AI backend engineering** — Python, FastAPI, API design, asynchronous workflows, and service integration.
-- **Applied ML and data** — data analysis, model evaluation, embeddings, and intelligent automation.
-- **Product integration** — connecting AI capabilities to usable applications and business workflows.
+- **Multi-agent orchestration:** A2A agent integration, LLM-directed sub-agents, MCP tool execution, and domain-specific routing.
+- **Retrieval engineering:** HyDE-RAG, hybrid retrieval, BM25, semantic reranking, multi-level document/slide indexes, and relevance-threshold gating.
+- **RAG evaluation:** RAGAS evaluation using context precision, context recall, faithfulness, and answer relevancy; regression analysis for retrieval and response quality.
+- **LLM-driven document workflows:** Structured extraction, metadata generation, multi-stage summarization, slide planning, and programmatic PPTX generation.
+- **AI backend systems:** Python, FastAPI, asynchronous ingestion pipelines, API integration, and cloud deployment workflows.
 
-## Selected work
+## Selected engineering work
 
-### Enterprise AI — Cognizant
-- Built a multi-agent conversational HR assistant for a large UK hotel group, integrating domain agents, A2A orchestration, MCP-based enterprise search, and Vertex AI reranking on GCP.
-- Developed an AI-powered **RFP response and proposal-generation workflow** for a large IT services company. The system combines document retrieval, LLM-based orchestration, slide planning, and PowerPoint generation, reducing proposal preparation time by **up to 80%**.
+### Multi-Agent HR Chatbot — Cognizant | GCP
 
-### Healthcare AI — Merck Hackathon
-- Built an AI research agent to analyse public healthcare and pharmaceutical information from sources including PubMed, WHO, and Kaggle datasets.
-- The goal was to help pharmaceutical companies surface emerging market opportunities and reduce the manual effort involved in market research and analysis.
+- Owned the HR domain of a multi-domain conversational assistant; implemented the HR A2A agent and integrated it with the root orchestrator.
+- Coordinated three LLM-directed sub-agents for policy lookup, HR content retrieval, and recruitment queries.
+- Implemented LLM-based keyword selection and tool calling through Liferay MCP servers.
+- Combined BM25 retrieval with persona/location filters, Vertex AI semantic reranking, and relevance-score thresholds to gate answer generation.
+- Used BigQuery regression analysis to compare response quality across personas and MCP retrieval accuracy; integrated an internal LLM proxy and deployed to GKE lower environments through CloudBees workflows.
 
-### Open source — embedding-drift-lib
-- Published a Python package on PyPI to help identify distribution and coverage shifts in embeddings used by RAG systems.
-- Includes drift analysis, monitoring utilities, and diagnostic signals without requiring an external service or API key.
+### Enterprise RFP / Proposal Intelligence — Cognizant | Azure
 
-[View the package on PyPI](https://pypi.org/project/embedding-drift-lib/) · [Source code](https://github.com/sarthakpande108/embedding-drift-lib)
+- Led a **nine-step asynchronous ingestion and RAG pipeline** using Python, FastAPI, Azure OpenAI, and Azure AI Search.
+- Implemented per-slide extraction, structured metadata generation, multi-stage summarization, embeddings, and document-/slide-level indexes.
+- Built LLM-driven slide planning to determine slide count, slide type, and content for each RFP.
+- Applied **HyDE-based retrieval** across a two-level index to select source slides and rewrite content in proposal style.
+- Generated slide-specific PptxGenJS code with Claude and executed it through a Node.js runner.
+- Benchmarked baseline RAG against HyDE-RAG using RAGAS metrics and BigQuery-backed regression analysis; reduced proposal preparation time by **up to 80%**.
 
-## Other projects
+### AI PowerPoint Design Generator — Cognizant | Azure
 
-| Project | Overview |
-| --- | --- |
-| [GenAI Trading Engine](https://github.com/sarthakpande108/genai-trading-engine) | AI-assisted trading and market-analysis project. |
-| [KTMantra](https://github.com/sarthakpande108/ktmantra) | Document-grounded knowledge-transfer assistant with guided learning and Q&A. |
-| [Market Wings](https://github.com/sarthakpande108/Market-Wings) | AI-powered stock-chart analysis application. [Live demo](https://market-wings.vercel.app/) |
-| [AI PowerPoint Generator](https://github.com/sarthakpande108/AI_PPT_generator) | Frontend for an AI-assisted presentation-generation workflow. |
-| [LinkedIn Automation](https://github.com/sarthakpande108/Linkedin-Automation) | Automation workflow for LinkedIn content tasks. |
+- Owned a website-to-template workflow using Playwright to extract client imagery and OpenAI embeddings to retrieve relevant assets and templates.
+- Generated branded PPTX design templates and incorporated selected client images programmatically.
+- Reduced design turnaround from **days to minutes**.
 
----
+## Open-source project
 
-## Technical toolkit
+### [embedding-drift-lib](https://github.com/sarthakpande108/embedding-drift-lib) · [PyPI](https://pypi.org/project/embedding-drift-lib/)
 
-**Languages**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+A lightweight Python library for detecting embedding distribution and coverage shifts in RAG systems, without external services or API keys.
 
-**AI / ML / LLM Engineering**  
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+- Uses PCA projection (1,536 dimensions to approximately 50), RBF-kernel Maximum Mean Discrepancy (MMD), per-dimension Wasserstein distance, coverage-gap analysis, and 200-iteration permutation testing.
+- Implements severity classification, adaptive sampling, and a drop-in embedding wrapper.
+- Diagnoses model drift, query shifts, and stale vector data without requiring changes to an existing RAG pipeline.
 
-**Agentic systems, retrieval & APIs**  
-![MCP](https://img.shields.io/badge/MCP-Agents-5B5BD6?style=flat)
-![A2A](https://img.shields.io/badge/A2A-Orchestration-5B5BD6?style=flat)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-02569B?style=flat)
-![Chroma](https://img.shields.io/badge/ChromaDB-5B46A5?style=flat)
+## Additional project
 
-**Cloud, data & delivery**  
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
-![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+### Autonomous Content Agent — [GitHub](https://github.com/sarthakpande108/Linkedin-Automation)
 
-**Application development**  
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+- Built a multi-agent LangGraph workflow with specialized scraping, ranking, writing, and publishing agents.
+- Combined LLM-based relevance scoring with heuristic ranking, an email-based human approval gate, and LangSmith tracing.
+
+## Technical skills
+
+| Area | Technologies and methods |
+|---|---|
+| **Languages** | Python, JavaScript, C++, SQL |
+| **LLM frameworks & APIs** | LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, Hugging Face Transformers, OpenAI, Anthropic Claude, Gemini, Azure OpenAI |
+| **RAG & retrieval** | HyDE-RAG, Multi-Hop RAG, Hybrid Search, BM25, Semantic Reranking, ChromaDB, FAISS, Pinecone, Azure AI Search |
+| **Agents, evaluation & safety** | MCP, A2A, Tool Calling, RAGAS, LLM-as-a-Judge, LangSmith, OpenTelemetry, NeMo Guardrails, Azure AI Content Safety, LoRA/QLoRA |
+| **Cloud, backend & DevOps** | FastAPI, Pydantic, GCP, Vertex AI, BigQuery, Azure, AWS (EC2, SNS), Docker, Kubernetes (GKE), CloudBees, GitHub Actions |
+
+## Experience & education
+
+- **AI/ML Engineer — Cognizant Technology Solutions** | Feb 2025 – Present
+- **Backend Software Intern — Productry** | Aug 2024 – Feb 2025
+- **B.E., Artificial Intelligence & Data Science — Savitribai Phule Pune University** | 2021 – 2025 · CGPA: 8.87/10
+
+**Certifications:** Databricks Certified Generative AI Engineer Associate (2025) · Claude Code Associate (2026)
+
+**Publication:** Co-authored a peer-reviewed paper on *Generative AI for Dynamic Financial Planning and Risk Profiling* (IJERT).
 
 ---
 
-## Background
-
-- **AI/ML Engineer — Cognizant Technology Solutions**
-- **Generative AI Intern — AlgoArtha**
-- **Data Analyst Intern — Productry**
-- **B.E. — Artificial Intelligence & Data Science**
-
----
-
-## Let's connect
-
-I'm interested in building reliable AI products, agentic workflows, and intelligent systems that solve real operational problems.
-
-- LinkedIn: [linkedin.com/in/sarthak-pande-1435a1229](https://www.linkedin.com/in/sarthak-pande-1435a1229)
-- GitHub: [github.com/sarthakpande108](https://github.com/sarthakpande108)
+[Connect on LinkedIn](https://www.linkedin.com/in/sarthak-pande-1435a1229)
